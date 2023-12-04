@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+}
+
+body>.background-fintech {
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+body>.background-register-fintech {
+  opacity: 0.8;
+}
+
+.background-register-fintech>.background-register-title-fintech {
+  font-family: Poppins;
+  font-size: 20px;
+  color: #FFF;
+  font-weight: 600;
+  padding-right: 28px;
+}
+
+.background-register-fintech>.background-register-description-fintech {
+  font-family: Poppins;
+  font-size: 12px;
+  color: #FFF;
+  font-weight: 400;
+  padding-right: 28px;
+}
